@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header section */
+main {
+    width: 1440px;
+    margin: auto;
+}
+
+.header-section {
+    padding: 80px 50px;
+
+
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-menu a {
+    margin-left: 28px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* banner section */
+.banner-items {
+    display: flex;
+    padding: 40px 50px;
+}
+
+.banner-text {
+    width: 50%;
+
+
+}
+
+.banner-text h1 {
+    font-size: 50px;
+}
+
+.banner-text p {
+    margin-bottom: 38px;
+    margin-top: 13px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #E02C6D;
+    padding: 4px 16px;
+    border-radius: 50px;
+}
+
+.banner-image img {
+    width: 100%;
+
+}
+
+.banner-image {
+    width: 50%;
+
+
+}
+
+.conpany-logo-section {
+    padding: 50px 10px;
+}
+
+.logo-items {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #ebe0e0;
+    border-bottom: 1px solid #ebe0e0;
+}
+
+.logo-items img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/* product section */
+.products-section {
+    padding: 80px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-items {
+    box-shadow: 4px 4px 20px grey;
+    margin: 0 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+
+.product-item-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-text {}
+
+.product-text h2 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-text h3 {
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 13px;
+}
+
+.product-text span {
+    color: gold;
+}
+
+.product-text p {}
+
+.ratting {
+    color: gray;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 767px) {
+
+    .banner-items,
+    .product-item-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* background-color: red; */
+
+
+
+    }
+
+    .logo-items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
